@@ -11,3 +11,28 @@ This project implements a logistic regression model to classify cancer data. The
 - Pandas
 - Matplotlib
 - Scikit-learn
+  ## Installation
+  1. Clone the repository
+     ```
+     git clone https://github.com/Shegun93/Logistic-Regression.git
+     ```
+  2. Navigate to the project directory
+     ```
+     cd Logistic-Reqression
+     ```
+  3. Install the required libraries
+     ```
+     pip install pandas numpy matplotlib sklearn
+     ```
+  ## Usage
+  ```
+  jupyter notebook Cancer.ipynb
+  ```
+Run each cell in the notebook sequentially to preprocess the data, train the model, and evaluate its performance.
+Results
+The model achieves an accuracy of 94.74% on the test set. Below is the confusion matrix:
+
+|                | Predicted: Benign | Predicted: Malignant |
+|----------------|-------------------|----------------------|
+| **Actual: Benign**     | 103               | 4                    |
+| **Actual: Malignant**  | 5                 | 59                   |
