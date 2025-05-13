@@ -37,7 +37,5 @@ The model achieves an accuracy of 94.74% on the test set. Below is the confusion
 | **Actual: Benign**     | 103               | 4                    |
 | **Actual: Malignant**  | 5                 | 59                   |
 
-
-|                   | Predicted
-|-------------------|
-|
+## License
+This project is open-source and available under the MIT License.
