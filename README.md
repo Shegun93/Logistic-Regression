@@ -1,4 +1,4 @@
-## Logistic Regression for Cancer Classification
+## Cancer Prediction
 # Overview
 This project implements a logistic regression model to classify cancer data. The model is trained on a dataset to predict whether a tumor is malignant or benign based on various features. The implementation includes data preprocessing, model training, and evaluation using a confusion matrix and accuracy score.
 
